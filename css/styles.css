@@ -153,14 +153,14 @@ ul {
 }
 
 .team-list-item {
-  background-color: #FFFFFF
+  background-color: #ffffff;
 }
 
 .team-image {
 }
 
 .team-text-name {
-  background-color: #FFFFFF
+  background-color: #ffffff;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -169,7 +169,7 @@ ul {
 }
 
 .team-text-job {
-  background-color: #FFFFFF
+  background-color: #ffffff;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
