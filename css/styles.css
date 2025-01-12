@@ -1,12 +1,29 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
 a {
   text-decoration: none;
 }
+
 ul {
   list-style-type: none;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* ----------- HEADER -----------*/
 .header-logo {
   color: #2e2f42;
   font-size: 18px;
@@ -14,6 +31,7 @@ ul {
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
+
 .header-logo-color {
   color: #4d5ae5;
   font-size: 18px;
@@ -21,10 +39,103 @@ ul {
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
+
 .header-menu-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-address-link {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ----------- HERO -----------*/
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero-btn {
+  background-color: #4d5ae5;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04;
+  color: #ffffff;
+}
+
+/* ----------- FEATURES -----------*/
+.features {
+  background-color: #ffffff;
+}
+
+.features-list {
+}
+
+.features-list-item {
+}
+
+.features-item-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.features-item-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ----------- TEAM -----------*/
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+
+.team-list {
+}
+
+.team-list-item {
+}
+
+.team-image {
+}
+
+.team-text-name {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-text-job {
+  color: #434455;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
