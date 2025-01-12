@@ -12,7 +12,7 @@ ul {
   list-style-type: none;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -23,7 +23,7 @@ ul {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /* ----------- HEADER -----------*/
 .header-logo {
@@ -227,6 +227,7 @@ ul {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .footer-logo-color {
@@ -236,6 +237,7 @@ ul {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .footer-text {
