@@ -25,7 +25,9 @@ ul {
 
 /* ----------- HEADER -----------*/
 .header-logo {
+  font-family: Raleway, serif;
   color: #2e2f42;
+  text-transform: uppercase;
   font-size: 18px;
   font-weight: 100;
   line-height: 1.16;
@@ -33,7 +35,9 @@ ul {
 }
 
 .header-logo-color {
+  font-family: Raleway, serif;
   color: #4d5ae5;
+  text-transform: uppercase;
   font-size: 18px;
   font-weight: 100;
   line-height: 1.16;
@@ -48,11 +52,28 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.header-menu-link:hover {
+  color: #404bbf;
+}
+
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
 .header-address-link {
   color: #434455;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.header-address-link:hover {
+  color: #404bbf;
+}
+
+.header-address-link:focus {
+  color: #404bbf;
 }
 
 /* ----------- HERO -----------*/
@@ -75,6 +96,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04;
   color: #ffffff;
+  cursor: pointer;
 }
 
 /* ----------- FEATURES -----------*/
@@ -137,5 +159,37 @@ ul {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ----------- FOOTER -----------*/
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  font-family: Raleway, serif;
+  color: #f4f4fd;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.footer-logo-color {
+  font-family: Raleway, serif;
+  color: #4d5ae5;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5em;
   letter-spacing: 0.02em;
 }
