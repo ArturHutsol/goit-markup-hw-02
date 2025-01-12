@@ -1,5 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 a {
@@ -25,22 +27,22 @@ ul {
 
 /* ----------- HEADER -----------*/
 .header-logo {
-  font-family: Raleway, serif;
-  color: #2e2f42;
+  font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
   text-transform: uppercase;
   font-size: 18px;
-  font-weight: 100;
-  line-height: 1.16;
+  font-weight: 700;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
 .header-logo-color {
-  font-family: Raleway, serif;
-  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  color: #2e2f42;
   text-transform: uppercase;
   font-size: 18px;
-  font-weight: 100;
-  line-height: 1.16;
+  font-weight: 700;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
@@ -60,7 +62,12 @@ ul {
   color: #404bbf;
 }
 
-.header-address-link {
+.header-adress {
+  font-style: normal;
+  color: #434455;
+}
+
+. .header-address-link {
   color: #434455;
   font-style: normal;
   font-size: 16px;
@@ -87,6 +94,7 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 
 .hero-btn {
@@ -94,12 +102,16 @@ ul {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
 }
 
 .hero-btn:hover {
+  background-color: #404bbf;
+}
+
+.hero-btn:focus {
   background-color: #404bbf;
 }
 
@@ -208,21 +220,21 @@ ul {
 }
 
 .footer-logo {
-  font-family: Raleway, serif;
-  color: #f4f4fd;
+  font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
   text-transform: uppercase;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
 .footer-logo-color {
-  font-family: Raleway, serif;
-  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  color: #f4f4fd;
   text-transform: uppercase;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
