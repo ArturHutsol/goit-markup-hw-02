@@ -65,6 +65,9 @@ ul {
 .header-adress {
   font-style: normal;
   color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 . .header-address-link {
@@ -152,9 +155,12 @@ ul {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .team-list {
+  background-color: #ffffff;
 }
 
 .team-list-item {
@@ -187,6 +193,8 @@ ul {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 .portfolio-listrowone {
 }
